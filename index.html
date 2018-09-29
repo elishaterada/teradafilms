@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <title>Terada Films - Wedding Videography in Seattle</title>
+  <title>Terada Films - Wedding Film Services in Greater Seattle</title>
   <meta name="description" content="We film wedding videography around Seattle area. Contact us to learn more.">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <link rel="canonical" href="http://www.teradafilms.com/">
@@ -15,7 +15,7 @@
     }
 
     html {
-      background-color: #ffffff;
+      background: #F2F2F2;
       font-size: 1em;
       height: 100%;
     }
@@ -32,7 +32,7 @@
       height: 1px;
       border: 0;
       border-top: 1px solid rgba(0, 0, 0, 0.12);
-      margin: 1em 0;
+      margin: 2em 0;
       padding: 0;
       width: 160px;
     }
@@ -78,6 +78,7 @@
       line-height: 1.4;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      margin: 0;
     }
 
     @media only screen and (min-width: 62em) {
@@ -89,7 +90,7 @@
     .page-description {
       font-size: 1rem;
       font-weight: 400;
-      margin-bottom: 4rem;
+      margin-bottom: 1rem;
     }
 
     @media only screen and (min-width: 62em) {
@@ -100,7 +101,7 @@
 
     .main {
       height: 100%;
-      background: #F2F2F2;
+      background: #FFF;
     }
 
     @media only screen and (min-width: 62em) {
@@ -112,16 +113,57 @@
     }
 
     .section-title {
-      font-size: 1.25rem;
+      margin: 0 0 3rem;
+      font-size: 1.375rem;
       letter-spacing: 0.025rem;
       color: #4F4F4F;
       font-weight: 400;
     }
 
-    .link-list {
-      margin: 0 0 1rem ;
+    .video-list {
+      margin: 0;
       padding: 0;
       list-style: none;
+    }
+
+    .video-item {
+      margin-bottom: 3rem;
+    }
+
+    @media only screen and (min-width: 62em) {
+      .video-item {
+        margin-bottom: 6rem;
+      }
+    }
+
+    .video-item:last-child {
+      margin-bottom: 1rem;
+    }
+
+    .responsive-iframe {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%;
+    }
+
+    .video-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0.0625rem solid #E0E0E0;
+    }
+
+    .video-title {
+      font-size: 1rem;
+      margin: 0.5rem 0 0;
+    }
+
+    .video-location {
+      font-size: 0.875rem;
+      color: #333;
+      margin: 0;
     }
 
     .extra-section {
@@ -163,20 +205,48 @@
 <div class="sidebar">
   <div class="sidebar-content fadeInLeft">
     <h1 class="page-title">Terada Films</h1>
-    <h2 class="page-description">Wedding Videography in Seattle</h2>
+    <h2 class="page-description">Wedding Film Services in Greater Seattle</h2>
   </div>
 </div>
 <div class="main">
   <section class="extra-section">
     <section>
       <h3 class="section-title">Featured Weddings</h3>
-      <ul class="link-list">
-
+      <ul class="video-list">
+        <li class="video-item">
+          <div class="responsive-iframe">
+            <iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/4hfTn8nsObM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <p class="video-title">Rica and Joe’s Wedding</p>
+          <p class="video-location">Seattle Aquarium, Seattle, WA</p>
+        </li>
+        <li class="video-item">
+          <div class="responsive-iframe">
+            <iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/qrqvhjZ2o0E?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <p class="video-title">Carmen & Alex’s Wedding</p>
+          <p class="video-location">Thornewood Castle, Lakewood, WA</p>
+        </li>
+        <li class="video-item">
+          <div class="responsive-iframe">
+            <iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/iHxeNhZdZv4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <p class="video-title">Phuong and Ben's Wedding</p>
+          <p class="video-location">Lord Hill Farms in Monroe, WA</p>
+        </li>
+        <li class="video-item">
+          <div class="responsive-iframe">
+            <iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/5RI7yFT-8Tw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <p class="video-title">Leslie and Edison's Wedding</p>
+          <p class="video-location">Oahu, Hawaii</p>
+        </li>
       </ul>
     </section>
     <hr>
     <section>
       <h3 class="section-title">Contact Us</h3>
+      <p>Are you interested in filming your wedding?<br />Contact us today to get started.</p>
       <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'t'+'%'+'6'+'&'+'#'+
       '5'+'3'+';'+'r'+'&'+'#'+'9'+'7'+';'+'d'+'%'+'6'+'1'+'f'+'i'+'%'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'1'+
       '0'+'9'+';'+'s'+'&'+'#'+'6'+'4'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'7'+'m'+'a'+'i'+'l'+'&'+
